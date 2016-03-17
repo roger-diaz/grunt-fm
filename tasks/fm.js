@@ -78,7 +78,7 @@ module.exports = function(grunt) {
               settings: {
                 encoding: options.encoding,
                 templatesDir: path.resolve(options.views),
-                modelDir: path.join(path.dirname(file), options.data);
+                modelDir: path.join(path.dirname(file), options.data)
               },
               template: ctrl.view,
               page: path.parse(file).name,
