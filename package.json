@@ -1,0 +1,25 @@
+{
+  "name": "grunt-fm",
+  "description": "fm",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/roger-diaz/grunt-fm.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "dependencies": {
+    "iconv-lite": "~0.2.11"
+  },
+  "_id": "grunt-fm@0.0.1"
+}
