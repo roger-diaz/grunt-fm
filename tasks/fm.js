@@ -40,7 +40,7 @@ module.exports = function(grunt) {
     var options = this.options({
       views: "views",
       out: this.data.out || "public",
-      encoding: this.data.encoding || "utf-8"
+      encoding: this.data.encoding || "utf-8",
       data: "data"
     });
 
